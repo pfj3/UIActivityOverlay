@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882EE8251B03EDCB00A2C622 /* UIActivityOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882EE8241B03EDCB00A2C622 /* UIActivityOverlay.swift */; };
 		88AFEBCF1AE958B0008C0EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFEBCE1AE958B0008C0EC2 /* AppDelegate.swift */; };
 		88AFEBD11AE958B0008C0EC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFEBD01AE958B0008C0EC2 /* ViewController.swift */; };
 		88AFEBD41AE958B0008C0EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AFEBD21AE958B0008C0EC2 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		882EE8241B03EDCB00A2C622 /* UIActivityOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityOverlay.swift; sourceTree = "<group>"; };
 		88AFEBC91AE958B0008C0EC2 /* ProgramaticActivityIndicatorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgramaticActivityIndicatorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AFEBCD1AE958B0008C0EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88AFEBCE1AE958B0008C0EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				88AFEBCE1AE958B0008C0EC2 /* AppDelegate.swift */,
 				88AFEBD01AE958B0008C0EC2 /* ViewController.swift */,
+				882EE8241B03EDCB00A2C622 /* UIActivityOverlay.swift */,
 				88AFEBD21AE958B0008C0EC2 /* Main.storyboard */,
 				88AFEBD51AE958B0008C0EC2 /* Images.xcassets */,
 				88AFEBD71AE958B0008C0EC2 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				88AFEBD11AE958B0008C0EC2 /* ViewController.swift in Sources */,
 				88AFEBCF1AE958B0008C0EC2 /* AppDelegate.swift in Sources */,
+				882EE8251B03EDCB00A2C622 /* UIActivityOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				88AFEBEA1AE958B0008C0EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88AFEBEB1AE958B0008C0EC2 /* Build configuration list for PBXNativeTarget "ProgramaticActivityIndicatorTestTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				88AFEBED1AE958B0008C0EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
